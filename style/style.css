@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.headerlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerlogo {
+    max-height: 60px;
+    width: auto;
+    margin: 16px;
+}
+
+li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.body {
+    display: flex;
+}
+
+.cattwo {
+    display: flex;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
