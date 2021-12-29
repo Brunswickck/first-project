@@ -7,8 +7,9 @@ body {
 
 .header {
     display: flex;
-    background-color: aqua;
     justify-content: space-between;
+    margin-bottom: 128px;
+    background-image: url("../images/background.jpg");
 }
 
 .headerlinks {
@@ -17,11 +18,6 @@ body {
     align-items: center;
     gap: 32px;
     margin: 32px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
 }
 
 .headerlogo {
@@ -36,23 +32,75 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: white;
+    padding: 16px;
+    color: black;
+    border-radius: 16px ;
+}
+
 .footer {
     display: flex;
-    background-color: aqua;
     justify-content: center;
     align-items: center;
     padding: 24px;
+    background-image: url("../images/background.jpg");
 }
 
 .body {
     display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 400px;
+    height: auto;
+}
+
+.catone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1e4f3;
+    margin: 0px 400px;
+    border-radius: 15px 50px;
+    padding: 30px;
+    justify-content: space-evenly;
+    margin-bottom: 128px;
+}
+
+.firstgroup {
+    max-width: 400px;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.image {
+    max-width: 240px;
+    height: 240px;
+    border-radius: 800%;
+    margin-bottom: 32px;
 }
 
 .cattwo {
     display: flex;
+    justify-content: space-evenly;   
+    margin-bottom: 64px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-img {
-    max-width: 300px;
+.group {
+    max-width: 240px;
     height: auto;
+    text-align: center;
 }
